@@ -1,4 +1,4 @@
-# Customvalidation
+# JQuery Live Validation
 
 This is custom live validation with jquery.
 Firstly add class "cusvalidate" for every input that you want to check.
