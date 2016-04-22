@@ -1,14 +1,9 @@
-
-/*
 $(document).ready(function(){
-	checkall();
-});
-*/
-
-$('.cusvalidate').keyup(function(){
-	
-	checkvalidate($(this));
-	
+	$('.cusvalidate').keyup(function(){
+		
+		checkvalidate($(this));
+		
+	});
 });
 
 checkvalidate = function(e){
@@ -88,5 +83,7 @@ checkall = function(){
 	
 	if(err==true){
 		return false;
+	}else{
+		return true;
 	}
 }
